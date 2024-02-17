@@ -9,5 +9,5 @@ def play_video(video_url):
     subprocess.call(["vlc", video_url])  # Opens the video in VLC player
 
 # Example usage
-video_url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"  # Insert your YouTube video URL here
+video_url = "https://youtu.be/ECtLvbb7whU"  # Insert your YouTube video URL here
 play_video(video_url)
