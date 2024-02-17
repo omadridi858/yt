@@ -24,6 +24,8 @@ jobs:
 
       - name: Install impacket
         run: python -m pip install pytube 
+      - name: Install vlc
+        run: sudo snap install vlc
 
       - name: Run Python script
         run: python yt.py 
